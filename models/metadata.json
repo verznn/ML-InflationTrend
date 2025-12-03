@@ -1,0 +1,24 @@
+{
+  "feature_names": [
+    "CPI_lag_1",
+    "CPI_lag_3",
+    "CPI_lag_6",
+    "CPI_roll_3",
+    "ER_lag_1",
+    "ER_lag_3",
+    "ER_lag_6",
+    "ER_roll_3",
+    "IR_lag_1",
+    "IR_lag_3",
+    "IR_lag_6",
+    "IR_roll_3"
+  ],
+  "target_column": "CPI_VALUE",
+  "date_column": "DATE",
+  "model_used": "LinearRegression",
+  "n_rows_raw": 117,
+  "n_rows_features": 111,
+  "n_train_rows": 89,
+  "n_test_rows": 22,
+  "source_file": "merged_preprocessed.csv"
+}
