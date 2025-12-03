@@ -98,7 +98,6 @@ CPI forecasts help users anticipate inflation trends to plan financial decisions
 ### 3. Review baseline vs scenario metrics, forecast path chart, and impact table
 
 ---
-
 ### 4. Optional: Run sensitivity scan to see effect of ER or IR variations on CPI
 
 ---
