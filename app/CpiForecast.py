@@ -365,6 +365,7 @@ with col3:
         label="Scenario vs Baseline (Δ CPI)",
         value=f"{delta:+.3f}",
         delta=f"{pct:+.2f}%" if not np.isnan(pct) else "n/a",
+        delta_color="inverse",  # Red for increases (bad), green for decreases (good)
     )
 
 if rmse_est is not None and lower_base is not None:
